@@ -1,7 +1,10 @@
 public class test{
+
 	public static void main(String[] args){
-		System.out.println("cbra");
-      		System.out.println("args[0] is "+args[0]);  
-     		System.out.println("args[0] is "+args[3]); 
+		printstrr("okaaaa"); 
 	}
+
+	public static void printstrr(String str){
+		System.out.println("My name = " + str );
+        }
 }
